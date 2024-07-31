@@ -112,8 +112,8 @@ WORKDIR /home/$USER
 ################## <追加> #####################
 ## Android Studioのインストール 参考1:<https://qiita.com/keicha_hrs/items/070b8f32fc98157541b2> 参考2:<https://developer.android.com/studio/install#linux> #dsc
 ### <変更点>Android Studioのバージョンを最新に変更 #chg
-ARG ANDROID_STUDIO_URL=https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.1.18/android-studio-2023.3.1.18-linux.tar.gz
-ARG ANDROID_STUDIO_VERSION=2023.3.1.18
+ARG ANDROID_STUDIO_URL=https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.1.1.12/android-studio-2024.1.1.12-linux.tar.gz
+ARG ANDROID_STUDIO_VERSION=2024.1.1.12
 #ARG ANDROID_STUDIO_URL=https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2022.3.1.20/android-studio-2022.3.1.20-linux.tar.gz
 #ARG ANDROID_STUDIO_VERSION=2022.3.1.20 #chg
 ################## </追加> ####################
